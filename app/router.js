@@ -5,10 +5,12 @@ import {
     Link
 } from 'react-router-dom';
 import Header from './header/header';
-import Page from './pageOne';
+import Page from './child/pageOne';
+import PageTwo from './child/pageTwo';
+import PageThree from './child/pageThree';
 import Home from './home';
 
-class Greeter extends Component{
+class Index extends Component{
     render() {
         return (
             <div>
@@ -18,6 +20,8 @@ class Greeter extends Component{
                         <div>
                             <Route exact path="/" component={Home} />
                             <Route path="/page1" component={Page} />
+                            <Route path="/page2" component={PageTwo} />
+                            <Route path="/page3" component={PageThree} />
                         </div>
                     </div>
                 </Router>
@@ -26,4 +30,4 @@ class Greeter extends Component{
     }
 }
 
-export default Greeter
+export default Index;

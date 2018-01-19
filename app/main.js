@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import Greeter from './Greeter';
+import Index from './router';
 import './css/style.css';
 
-render(<Greeter />, document.getElementById('root'));
+render(<Index />, document.getElementById('root'));

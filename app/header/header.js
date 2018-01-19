@@ -9,8 +9,8 @@ class Header extends React.Component{
                 <ul>
                     <li><Link to="/">home</Link></li>
                     <li><Link to="/page1">pageOne</Link></li>
-                    <li><Link to="/page1">pageTwo</Link></li>
-                    <li><Link to="/page1">pageThree</Link></li>
+                    <li><Link to="/page2">pageTwo</Link></li>
+                    <li><Link to="/page3">pageThree</Link></li>
                 </ul>
             </div>
         )
